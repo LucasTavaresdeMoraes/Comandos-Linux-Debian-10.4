@@ -1,0 +1,22 @@
+su - = Para entrar no roo
+Ctrl + C = Para interromper o ping
+
+systemctl poweroff = Para desligar a máquina
+
+Ctrl + L ou clear = Para limpar a tela
+
+systemctl reboot = Para reiniciar o sistema
+
+mkdir (nome do diretório) = Cria diretórios
+
+apt update = Atualiza
+
+apt install vim -y = Para instalar o (vim) editor de texto 
+
+apt install dnsutils = Trás comandos novos
+
+apt install net-tools -y = Trás comandos novos
+
+pwd = mostra em qual diretório você está
+
+touch ( nome ) = cria diretório vázio
