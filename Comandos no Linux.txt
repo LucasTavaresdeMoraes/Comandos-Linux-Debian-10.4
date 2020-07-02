@@ -29,3 +29,7 @@ Salva o documento e sai do vim:
  
 Salva o arquivo mesmo se estiver somente no modo leitura:
    :w!
+   
+Mostra o conteúdo de um arquivo binário ou em texto:
+   cat [diretório/arquivo]
+   
