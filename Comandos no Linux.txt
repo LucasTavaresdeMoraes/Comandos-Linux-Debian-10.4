@@ -25,7 +25,7 @@ Entrar no modo de inserção no vim:
    i -> Ao pressionar a tecla “i”, o modo de inserção é ativado e o cursor de texto é posicionado à esquerda do caractere corrente
    
 Salva o documento e sai do vim:
-   ZZ OU :wq
+   ZZ OU :wq!
  
 Salva o arquivo mesmo se estiver somente no modo leitura:
    :w!
