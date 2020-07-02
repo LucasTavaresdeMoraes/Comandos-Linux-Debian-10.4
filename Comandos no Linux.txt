@@ -1,0 +1,31 @@
+                                                    Comandos no Debian 10.4
+													
+Instalar o SSH no Debian:
+   apt install openssh-server
+   
+Para acessar o arquivo de configuração do servidor SSH:
+   vim ( /etc/ssh/sshd_config )
+
+Verificar se o serviço de SSH está funcionando:
+   systemctl status sshd
+ 
+Para habilitar um usuário conectar no SSH , deve-se editar o arquivo:
+   /etc/ssh/sshd_config e inserir a seguinte informação:
+      AllowUsers [nome-do-usuário] 
+	  
+Para aplicar as mudanças feitas no arquivo /etc/ssh/sshd_config deve-se reiniciar o serviço SSH:
+   service ssh restart OU systemctl restart sshh
+
+Para adicionar mais de um usuário no SSH, deve-se editar o arquivo /etc/ssh/sshd_config e inserir a seguinte informação
+   AllowUsers [nome-do-usuário1] [nome-do-usuário2] [nome-do-usuário3]  
+   
+Entrar no modo de inserção no vim:
+   a -> Ao pressionar a tecla “a”, o modo de inserção é ativado e o cursor de texto é posicionado logo após o caractere corrente
+   OU
+   i -> Ao pressionar a tecla “i”, o modo de inserção é ativado e o cursor de texto é posicionado à esquerda do caractere corrente
+   
+Salva o documento e sai do vim:
+   ZZ OU :wq
+ 
+Salva o arquivo mesmo se estiver somente no modo leitura:
+   :w!
