@@ -1,4 +1,7 @@
-su - = Para entrar no roo
+                   Comandos no Linux, (Debian 10.4)
+
+su - = Para entrar no root
+
 Ctrl + C = Para interromper o ping
 
 systemctl poweroff = Para desligar a máquina
